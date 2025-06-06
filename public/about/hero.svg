@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#1F2937;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#111827;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    <rect width="1920" height="1080" fill="url(#grad)"/>
+    
+    <!-- Modern bus silhouette -->
+    <path d="M960 540 L1160 540 L1160 640 L960 640 Z" fill="white" opacity="0.1"/>
+    <circle cx="960" cy="640" r="40" fill="white" opacity="0.1"/>
+    <circle cx="1160" cy="640" r="40" fill="white" opacity="0.1"/>
+    
+    <!-- City skyline -->
+    <path d="M0 540 L1920 540 L1920 1080 L0 1080 Z" fill="white" opacity="0.05"/>
+    <path d="M100 540 L100 400 L200 400 L200 540 Z" fill="white" opacity="0.1"/>
+    <path d="M300 540 L300 300 L400 300 L400 540 Z" fill="white" opacity="0.1"/>
+    <path d="M500 540 L500 450 L600 450 L600 540 Z" fill="white" opacity="0.1"/>
+    <path d="M700 540 L700 350 L800 350 L800 540 Z" fill="white" opacity="0.1"/>
+    <path d="M900 540 L900 500 L1000 500 L1000 540 Z" fill="white" opacity="0.1"/>
+    <path d="M1100 540 L1100 400 L1200 400 L1200 540 Z" fill="white" opacity="0.1"/>
+    <path d="M1300 540 L1300 450 L1400 450 L1400 540 Z" fill="white" opacity="0.1"/>
+    <path d="M1500 540 L1500 350 L1600 350 L1600 540 Z" fill="white" opacity="0.1"/>
+    <path d="M1700 540 L1700 500 L1800 500 L1800 540 Z" fill="white" opacity="0.1"/>
+    
+    <!-- Stars -->
+    <circle cx="200" cy="200" r="2" fill="white" opacity="0.3"/>
+    <circle cx="400" cy="150" r="2" fill="white" opacity="0.3"/>
+    <circle cx="600" cy="250" r="2" fill="white" opacity="0.3"/>
+    <circle cx="800" cy="180" r="2" fill="white" opacity="0.3"/>
+    <circle cx="1000" cy="220" r="2" fill="white" opacity="0.3"/>
+    <circle cx="1200" cy="190" r="2" fill="white" opacity="0.3"/>
+    <circle cx="1400" cy="240" r="2" fill="white" opacity="0.3"/>
+    <circle cx="1600" cy="170" r="2" fill="white" opacity="0.3"/>
+    <circle cx="1800" cy="210" r="2" fill="white" opacity="0.3"/>
+</svg> 
