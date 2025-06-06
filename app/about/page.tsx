@@ -7,19 +7,27 @@ import Fleet from "@/components/about/fleet";
 import Safety from "@/components/about/safety";
 import Community from "@/components/about/community";
 import Footer from "@/components/homepage/footer";
+import Navbar from "@/components/navbar";
 
 export default function About() {
     return (
-        <main>
-            <AboutHero />
-            <OurStory />
-            <MissionVision />
-            <Leadership />
-            <Partners />
-            <Fleet />
-            <Safety />
-            <Community />
-            <Footer />
-        </main>
+        <div className="min-h-screen bg-gray-900">
+            <div className="relative">
+                {/* Dark background for navbar */}
+                <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900"></div>
+                <Navbar />
+            </div>
+            <main>
+                <AboutHero />
+                <OurStory />
+                <MissionVision />
+                <Leadership />
+                <Partners />
+                <Fleet />
+                <Safety />
+                <Community />
+                <Footer />
+            </main>
+        </div>
     );
 }
