@@ -4,7 +4,6 @@ import { Button } from '@/components/ui/button';
 import {
     Building2,
     MapPin,
-    Users,
     Bus,
     ArrowRight,
     Star,
@@ -12,14 +11,13 @@ import {
     Clock,
     CheckCircle
 } from 'lucide-react';
-import Image from 'next/image';
 
 const Partners = () => {
     const partners = [
         {
             name: "Expreso Ltd",
             logo: "/about/partners/expreso.svg",
-            description: "Leading provider of express services across major Nairobi routes with a focus on comfort and reliability.",
+            description: "Leading provider of express services across major Nairobi&apos;s routes with a focus on comfort and reliability.",
             routes: ["CBD", "Westlands", "Karen", "Lavington"],
             stats: {
                 vehicles: "50+",
@@ -31,7 +29,7 @@ const Partners = () => {
         {
             name: "ROG Sacco",
             logo: "/about/partners/rog.svg",
-            description: "Specialized in residential routes, providing reliable service to Nairobi's growing neighborhoods.",
+            description: "Specialized in residential routes, providing reliable service to Nairobi&apos;s growing neighborhoods.",
             routes: ["Ruiru", "Thika", "Juja", "Kahawa"],
             stats: {
                 vehicles: "40+",
@@ -43,7 +41,7 @@ const Partners = () => {
         {
             name: "Sowetamu",
             logo: "/about/partners/sowetamu.svg",
-            description: "Known for extensive coverage of South and West Nairobi routes with modern fleet.",
+            description: "Known for extensive coverage of South and West Nairobi&apos;s routes with modern fleet.",
             routes: ["Langata", "Kibera", "Ngong", "Karen"],
             stats: {
                 vehicles: "45+",
@@ -67,7 +65,7 @@ const Partners = () => {
         {
             name: "Tripple S Services",
             logo: "/about/partners/tripple-s.svg",
-            description: "Focusing on safety and comfort with a modern fleet serving key Nairobi routes.",
+            description: "Focusing on safety and comfort with a modern fleet serving key Nairobi&apos;s routes.",
             routes: ["CBD", "Eastlands", "Buruburu", "Embakasi"],
             stats: {
                 vehicles: "30+",
@@ -91,7 +89,7 @@ const Partners = () => {
                         Partner Sacco Network
                     </h2>
                     <p className="text-xl text-gray-600 leading-relaxed">
-                        Working with Nairobi's most trusted transport providers to deliver exceptional service
+                        Working with Nairobi&apos;s most trusted transport providers to deliver exceptional service
                     </p>
                 </div>
 

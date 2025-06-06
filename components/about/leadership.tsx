@@ -7,11 +7,9 @@ import {
     Mail,
     Phone,
     ArrowRight,
-    Award,
     Briefcase,
     GraduationCap
 } from 'lucide-react';
-import Image from 'next/image';
 
 const Leadership = () => {
     const leaders = [
@@ -82,7 +80,7 @@ const Leadership = () => {
                         Meet Our Leadership Team
                     </h2>
                     <p className="text-xl text-gray-600 leading-relaxed">
-                        Experienced professionals committed to transforming Nairobi's public transport
+                        Experienced professionals committed to transforming Nairobi&apos;s public transport
                     </p>
                 </div>
 
@@ -157,7 +155,7 @@ const Leadership = () => {
                             Join Our Team
                         </h3>
                         <p className="text-gray-600 mb-8">
-                            Be part of our mission to transform public transportation in Nairobi
+                            Be part of our mission to transform public transportation in Nairobi&apos;s
                         </p>
                         <Button size="lg" className="bg-gradient-to-r from-gray-600 to-gray-700 hover:from-gray-700 hover:to-gray-800 text-white">
                             View Career Opportunities

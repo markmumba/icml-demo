@@ -6,13 +6,10 @@ import {
     Users,
     GraduationCap,
     ArrowRight,
-    CheckCircle,
-    Globe,
     Building2,
-    Leaf,
-    Sparkles,
     TreePalm
 } from 'lucide-react';
+import Image from 'next/image';
 
 const Community = () => {
     const initiatives = [
@@ -114,11 +111,42 @@ const Community = () => {
                             </div>
                         </div>
 
-                        {/* Community Image */}
-                        <div className="relative">
-                            <div className="aspect-[4/3] rounded-2xl overflow-hidden bg-gradient-to-br from-gray-600 to-gray-700">
-                                <div className="absolute inset-0 flex items-center justify-center text-white text-2xl font-bold">
-                                    Community Impact Image
+                        {/* Community Images Grid */}
+                        <div className="grid grid-cols-2 gap-4">
+                            <div className="space-y-4">
+                                <div className="relative h-48 rounded-xl overflow-hidden">
+                                    <Image
+                                        src="/images/community/education.jpg"
+                                        alt="ICML's education support programs"
+                                        fill
+                                        className="object-cover"
+                                    />
+                                </div>
+                                <div className="relative h-64 rounded-xl overflow-hidden">
+                                    <Image
+                                        src="/images/community/environment.jpg"
+                                        alt="ICML's environmental initiatives"
+                                        fill
+                                        className="object-cover"
+                                    />
+                                </div>
+                            </div>
+                            <div className="space-y-4">
+                                <div className="relative h-64 rounded-xl overflow-hidden">
+                                    <Image
+                                        src="/images/community/youth.jpg"
+                                        alt="ICML's youth development programs"
+                                        fill
+                                        className="object-cover"
+                                    />
+                                </div>
+                                <div className="relative h-48 rounded-xl overflow-hidden">
+                                    <Image
+                                        src="/images/community/development.jpg"
+                                        alt="ICML's community development projects"
+                                        fill
+                                        className="object-cover"
+                                    />
                                 </div>
                             </div>
                         </div>

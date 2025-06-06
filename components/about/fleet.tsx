@@ -9,11 +9,11 @@ import {
     Gauge,
     Users,
     ArrowRight,
-    CheckCircle,
     Zap,
     MapPin,
     Clock
 } from 'lucide-react';
+import Image from 'next/image';
 
 const Fleet = () => {
     const fleetFeatures = [
@@ -83,12 +83,13 @@ const Fleet = () => {
                 <div className="max-w-7xl mx-auto mb-20">
                     <div className="grid lg:grid-cols-2 gap-12 items-center">
                         {/* Fleet Image */}
-                        <div className="relative">
-                            <div className="aspect-[4/3] rounded-2xl overflow-hidden bg-gradient-to-br from-gray-600 to-gray-700">
-                                <div className="absolute inset-0 flex items-center justify-center text-white text-2xl font-bold">
-                                    Modern Fleet Image
-                                </div>
-                            </div>
+                        <div className="relative h-[400px] rounded-2xl overflow-hidden">
+                            <Image
+                                src="/features/fleet.jpg"
+                                alt="ICML's modern fleet of vehicles"
+                                fill
+                                className="object-cover"
+                            />
                         </div>
 
                         {/* Fleet Features */}

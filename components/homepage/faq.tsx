@@ -154,7 +154,7 @@ const FAQSection = () => {
                         </span>
                     </h2>
                     <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-                        Get instant answers to your questions. Can't find what you're looking for?
+                        Get instant answers to your questions. Can&apos;t find what you&apos;re looking for?
                         Our support team is available 24/7 to assist you.
                     </p>
                 </div>

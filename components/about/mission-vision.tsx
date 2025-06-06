@@ -53,7 +53,7 @@ const MissionVision = () => {
                         Mission, Vision & Values
                     </h2>
                     <p className="text-xl text-gray-600 leading-relaxed">
-                        Our guiding principles that drive us to transform public transportation in Nairobi
+                        Our guiding principles that drive us to transform public transportation in Nairobi&apos;s
                     </p>
                 </div>
 
@@ -66,7 +66,7 @@ const MissionVision = () => {
                         </div>
                         <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Mission</h3>
                         <p className="text-gray-600 leading-relaxed mb-6">
-                            To revolutionize public transportation in Nairobi by providing safe, reliable, and innovative
+                            To revolutionize public transportation in Nairobi&apos;s by providing safe, reliable, and innovative
                             mobility solutions that connect communities and enhance the quality of life for all citizens.
                         </p>
                         <ul className="space-y-3">
@@ -91,8 +91,8 @@ const MissionVision = () => {
                         </div>
                         <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Vision</h3>
                         <p className="text-gray-600 leading-relaxed mb-6">
-                            To be Nairobi's most trusted and innovative transport network, setting new standards for
-                            safety, reliability, and customer satisfaction while contributing to the city's sustainable development.
+                            To be Nairobi&apos;s most trusted and innovative transport network, setting new standards for
+                            safety, reliability, and customer satisfaction while contributing to the city&apos;s sustainable development.
                         </p>
                         <ul className="space-y-3">
                             {[
@@ -133,7 +133,7 @@ const MissionVision = () => {
                             Join Our Journey
                         </h3>
                         <p className="text-gray-600 mb-8">
-                            Experience the future of public transportation with ICML's commitment to excellence and innovation.
+                            Experience the future of public transportation with ICML&apos;s commitment to excellence and innovation.
                         </p>
                         <Button size="lg" className="bg-gradient-to-r from-gray-600 to-gray-700 hover:from-gray-700 hover:to-gray-800 text-white">
                             Explore Our Services
@@ -141,6 +141,11 @@ const MissionVision = () => {
                         </Button>
                     </div>
                 </div>
+
+                <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+                    Join thousands of satisfied passengers who choose ICML for safe,
+                    reliable, and comfortable journeys across Nairobi&apos;s.
+                </p>
             </div>
         </section>
     );

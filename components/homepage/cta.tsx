@@ -4,51 +4,14 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import {
     ArrowRight,
-    MapPin,
-    Smartphone,
-    Phone,
     Clock,
     Shield,
     Star,
     Users,
-    Zap,
-    CheckCircle,
-    Download,
-    PlayCircle
+    CheckCircle
 } from 'lucide-react';
 
 const CTASection = () => {
-    const [timeLeft, setTimeLeft] = useState({
-        hours: 23,
-        minutes: 45,
-        seconds: 30
-    });
-
-    // Countdown timer effect
-    useEffect(() => {
-        const timer = setInterval(() => {
-            setTimeLeft(prev => {
-                if (prev.seconds > 0) {
-                    return { ...prev, seconds: prev.seconds - 1 };
-                } else if (prev.minutes > 0) {
-                    return { ...prev, minutes: prev.minutes - 1, seconds: 59 };
-                } else if (prev.hours > 0) {
-                    return { hours: prev.hours - 1, minutes: 59, seconds: 59 };
-                }
-                return prev;
-            });
-        }, 1000);
-
-        return () => clearInterval(timer);
-    }, []);
-
-    const benefits = [
-        { icon: Shield, text: "99.5% Safety Record" },
-        { icon: Clock, text: "Real-Time Tracking" },
-        { icon: Star, text: "4.8/5 Customer Rating" },
-        { icon: Users, text: "100K+ Daily Passengers" }
-    ];
-
     return (
         <section className="bg-white py-20">
             <div className="container mx-auto px-6 lg:px-12">

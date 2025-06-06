@@ -16,12 +16,9 @@ import {
     Shield,
     Star,
     Send,
-    ExternalLink,
     CheckCircle,
     Award,
     ChevronRight,
-    ArrowRight,
-    Download,
     Globe,
     Heart
 } from 'lucide-react';

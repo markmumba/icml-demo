@@ -7,12 +7,12 @@ import {
     FileCheck,
     Users,
     ArrowRight,
-    CheckCircle,
     Award,
     ClipboardCheck,
     Car,
     Clock
 } from 'lucide-react';
+import Image from 'next/image';
 
 const Safety = () => {
     const safetyMeasures = [
@@ -122,12 +122,13 @@ const Safety = () => {
                         </div>
 
                         {/* Safety Image */}
-                        <div className="relative">
-                            <div className="aspect-[4/3] rounded-2xl overflow-hidden bg-gradient-to-br from-gray-600 to-gray-700">
-                                <div className="absolute inset-0 flex items-center justify-center text-white text-2xl font-bold">
-                                    Safety Standards Image
-                                </div>
-                            </div>
+                        <div className="relative h-[400px] rounded-2xl overflow-hidden">
+                            <Image
+                                src="/features/safteysection.jpg"
+                                alt="ICML's safety standards and protocols"
+                                fill
+                                className="object-cover"
+                            />
                         </div>
                     </div>
                 </div>

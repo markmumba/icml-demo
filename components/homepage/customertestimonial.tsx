@@ -2,7 +2,16 @@
 import React from 'react';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { Star, Quote, Users, ThumbsUp, Clock, Shield } from 'lucide-react';
+import { Star, Users, ThumbsUp, Clock } from 'lucide-react';
+
+type Testimonial = {
+    id: number;
+    name: string;
+    handle: string;
+    avatar: string;
+    text: string;
+    rating: number;
+};
 
 const TestimonialsSection = () => {
     // Extended testimonials for masonry layout
@@ -52,7 +61,7 @@ const TestimonialsSection = () => {
             name: "David Otieno",
             handle: "@david_otieno",
             avatar: "DO",
-            text: "Clean buses, professional drivers, and always on time. ICML has set the standard for public transport in Nairobi.",
+            text: "Clean buses, professional drivers, and always on time. ICML has set the standard for public transport in Nairobi&apos;s.",
             rating: 5
         },
         {
@@ -84,7 +93,7 @@ const TestimonialsSection = () => {
             name: "Kevin Ochieng",
             handle: "@kevin_ochieng",
             avatar: "KO",
-            text: "Best transport experience in Nairobi. Modern fleet, friendly staff, and transparent pricing.",
+            text: "Best transport experience in Nairobi&apos;s. Modern fleet, friendly staff, and transparent pricing.",
             rating: 5
         }
     ];
@@ -94,7 +103,7 @@ const TestimonialsSection = () => {
     const column2 = testimonials.slice(4, 7);
     const column3 = testimonials.slice(7, 10);
 
-    const TestimonialCard = ({ testimonial }: { testimonial: any }) => (
+    const TestimonialCard = ({ testimonial }: { testimonial: Testimonial }) => (
         <div className="bg-gray-900 rounded-2xl p-6 mb-6 hover:bg-gray-800 transition-all duration-300 cursor-pointer relative group">
             {/* Header */}
             <div className="flex items-center mb-4">
@@ -145,7 +154,7 @@ const TestimonialsSection = () => {
                     </h2>
                     <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
                         Real feedback from thousands of satisfied passengers who trust ICML
-                        for their daily journeys across Nairobi.
+                        for their daily journeys across Nairobi&apos;s.
                     </p>
                 </div>
 
@@ -235,7 +244,7 @@ const TestimonialsSection = () => {
                     <h3 className="text-2xl font-bold text-gray-900 mb-4">Join Thousands of Satisfied Passengers</h3>
                     <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
                         Experience the reliability, safety, and convenience that makes ICML
-                        Nairobi's most trusted transport network.
+                        Nairobi&apos;s most trusted transport network.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">

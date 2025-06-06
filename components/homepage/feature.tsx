@@ -43,7 +43,7 @@ const FeaturesSection = () => {
                     <div className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                         <div className="relative w-full h-48 mb-6 rounded-xl overflow-hidden">
                             <Image
-                                src="/features/tracking.svg"
+                                src="/features/tracking.jpg"
                                 alt="Real-time bus tracking interface"
                                 fill
                                 className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -84,7 +84,7 @@ const FeaturesSection = () => {
                     <div className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                         <div className="relative w-full h-48 mb-6 rounded-xl overflow-hidden">
                             <Image
-                                src="/features/payments.svg"
+                                src="/features/payments.jpg"
                                 alt="Multiple payment options interface"
                                 fill
                                 className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -97,7 +97,7 @@ const FeaturesSection = () => {
                         <h3 className="text-2xl font-bold text-gray-900 mb-4">Flexible Payments</h3>
                         <p className="text-gray-600 mb-6 leading-relaxed">
                             Pay your way with multiple secure payment options. From mobile money to cards,
-                            we've made transactions simple and hassle-free.
+                            we&apos;ve made transactions simple and hassle-free.
                         </p>
 
                         <div className="grid grid-cols-3 gap-3 mb-6">
@@ -122,7 +122,7 @@ const FeaturesSection = () => {
                     <div className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                         <div className="relative w-full h-48 mb-6 rounded-xl overflow-hidden">
                             <Image
-                                src="/features/support.svg"
+                                src="/features/support.jpg"
                                 alt="24/7 customer support team"
                                 fill
                                 className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -165,7 +165,7 @@ const FeaturesSection = () => {
                     <div className="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-lg transition-all duration-200 transform hover:-translate-y-1">
                         <div className="relative w-full h-32 mb-4 rounded-lg overflow-hidden">
                             <Image
-                                src="/features/mobile-app.svg"
+                                src="/features/moblie-app.jpg"
                                 alt="Mobile app interface"
                                 fill
                                 className="object-cover"
@@ -181,7 +181,7 @@ const FeaturesSection = () => {
                     <div className="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-lg transition-all duration-200 transform hover:-translate-y-1">
                         <div className="relative w-full h-32 mb-4 rounded-lg overflow-hidden">
                             <Image
-                                src="/features/wifi.svg"
+                                src="/features/wifi.jpg"
                                 alt="Free WiFi on board"
                                 fill
                                 className="object-cover"
@@ -197,7 +197,7 @@ const FeaturesSection = () => {
                     <div className="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-lg transition-all duration-200 transform hover:-translate-y-1">
                         <div className="relative w-full h-32 mb-4 rounded-lg overflow-hidden">
                             <Image
-                                src="/features/safety.svg"
+                                src="/features/safety.jpg"
                                 alt="Safety features"
                                 fill
                                 className="object-cover"
@@ -213,7 +213,7 @@ const FeaturesSection = () => {
                     <div className="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-lg transition-all duration-200 transform hover:-translate-y-1">
                         <div className="relative w-full h-32 mb-4 rounded-lg overflow-hidden">
                             <Image
-                                src="/features/comfort.svg"
+                                src="/features/comfort.jpg"
                                 alt="Comfortable seating"
                                 fill
                                 className="object-cover"
@@ -231,7 +231,7 @@ const FeaturesSection = () => {
                 <div className="bg-gradient-to-r from-gray-800 to-gray-900 rounded-3xl p-12 text-center text-white relative overflow-hidden">
                     <div className="absolute inset-0">
                         <Image
-                            src="/features/cta-bg.svg"
+                            src="/features/fleet.jpg"
                             alt="Modern bus fleet"
                             fill
                             className="object-cover opacity-20"
@@ -241,7 +241,7 @@ const FeaturesSection = () => {
                         <h3 className="text-3xl font-bold mb-4">Ready to Experience the Difference?</h3>
                         <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
                             Join thousands of satisfied passengers who choose ICML for safe,
-                            reliable, and comfortable journeys across Nairobi.
+                            reliable, and comfortable journeys across Nairobi&apos;s.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -249,7 +249,7 @@ const FeaturesSection = () => {
                                 <MapPin className="mr-2 h-5 w-5" />
                                 Find Your Route
                             </Button>
-                            <Button size="lg" variant="outline" className="border-2 border-white text-white hover:bg-white/10 px-8 py-4 text-lg font-semibold">
+                            <Button size="lg" variant="outline" className="border-2 border-white text-black hover:bg-white hover:text-gray-900 px-8 py-4 text-lg font-semibold">
                                 <Smartphone className="mr-2 h-5 w-5" />
                                 Download App
                             </Button>

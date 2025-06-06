@@ -5,20 +5,18 @@ import {
     Calendar,
     MapPin,
     Users,
-    Award,
     ArrowRight,
     Bus,
     Shield,
     Star
 } from 'lucide-react';
-import Image from 'next/image';
 
 const OurStory = () => {
     const milestones = [
         {
             year: "2020",
             title: "The Beginning",
-            description: "ICML was founded with a vision to transform Nairobi's public transport system through technology and partnerships.",
+            description: "ICML was founded with a vision to transform Nairobi&apos;s public transport system through technology and partnerships.",
             icon: Bus,
             color: "from-gray-600 to-gray-700"
         },
@@ -46,7 +44,7 @@ const OurStory = () => {
         {
             year: "2024",
             title: "Network Expansion",
-            description: "Expanded to 50+ routes and partnered with 5 leading Saccos, becoming Nairobi's most trusted transport network.",
+            description: "Expanded to 50+ routes and partnered with 5 leading Saccos, becoming Nairobi&apos;s most trusted transport network.",
             icon: MapPin,
             color: "from-gray-600 to-gray-700"
         }
@@ -65,7 +63,7 @@ const OurStory = () => {
                         From Vision to Reality
                     </h2>
                     <p className="text-xl text-gray-600 leading-relaxed">
-                        Our journey from a startup to Nairobi's leading transport network has been marked by innovation,
+                        Our journey from a startup to Nairobi&apos;s leading transport network has been marked by innovation,
                         partnerships, and an unwavering commitment to excellence.
                     </p>
                 </div>

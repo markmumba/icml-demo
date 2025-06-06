@@ -12,7 +12,7 @@ const TrustSection = () => {
                         TRUSTED BY THOUSANDS
                     </h2>
                     <p className="text-gray-600 text-lg">
-                        Partnered with Nairobi's leading transport Saccos for reliable service
+                        Partnered with Nairobi&apos;s leading transport Saccos for reliable service
                     </p>
                 </div>
 

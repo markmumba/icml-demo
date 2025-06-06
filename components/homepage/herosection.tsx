@@ -38,7 +38,7 @@ const HeroSection = () => {
                     <div className="space-y-8">
                         <div className="space-y-4">
                             <Badge className="bg-gray-500/20 text-gray-300 border-gray-500/30 hover:bg-gray-500/30">
-                                🚌 Nairobi's #1 Transport Network
+                                🚌 Nairobi&apos;s #1 Transport Network
                             </Badge>
 
                             <h1 className="text-5xl lg:text-7xl font-bold text-white leading-tight">
