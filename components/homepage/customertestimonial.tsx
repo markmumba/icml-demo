@@ -107,7 +107,7 @@ const TestimonialsSection = () => {
         <div className="bg-gray-900 rounded-2xl p-6 mb-6 hover:bg-gray-800 transition-all duration-300 cursor-pointer relative group">
             {/* Header */}
             <div className="flex items-center mb-4">
-                <div className="w-12 h-12 bg-gradient-to-r from-gray-600 to-gray-700 rounded-full flex items-center justify-center text-white font-bold mr-3">
+                <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-blue-700 rounded-full flex items-center justify-center text-white font-bold mr-3">
                     {testimonial.avatar}
                 </div>
                 <div className="flex-1">
@@ -248,7 +248,7 @@ const TestimonialsSection = () => {
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                        <Button size="lg" className="bg-gradient-to-r from-gray-600 to-gray-700 hover:from-gray-700 hover:to-gray-800 text-white px-8 py-4 text-lg font-semibold">
+                        <Button size="lg" className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-8 py-4 text-lg font-semibold">
                             Start Your Journey
                         </Button>
                         <Button size="lg" variant="outline" className="border-2 border-gray-600 text-gray-600 hover:bg-gray-50 px-8 py-4 text-lg font-semibold">

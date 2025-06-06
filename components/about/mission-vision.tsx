@@ -18,25 +18,25 @@ const MissionVision = () => {
             title: "Safety First",
             description: "Every journey prioritizes passenger safety through rigorous protocols and continuous monitoring.",
             icon: Shield,
-            color: "from-gray-600 to-gray-700"
+            color: "from-blue-600 to-blue-700"
         },
         {
             title: "Customer-Centric",
             description: "We put our passengers first, ensuring comfort, reliability, and exceptional service.",
             icon: Heart,
-            color: "from-gray-600 to-gray-700"
+            color: "from-blue-600 to-blue-700"
         },
         {
             title: "Innovation",
             description: "Constantly evolving our technology and services to enhance the passenger experience.",
             icon: Star,
-            color: "from-gray-600 to-gray-700"
+            color: "from-blue-600 to-blue-700"
         },
         {
             title: "Partnership",
             description: "Building strong relationships with Saccos and communities for sustainable growth.",
             icon: Users,
-            color: "from-gray-600 to-gray-700"
+            color: "from-blue-600 to-blue-700"
         }
     ];
 
@@ -61,7 +61,7 @@ const MissionVision = () => {
                 <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto mb-20">
                     {/* Mission Card */}
                     <div className="bg-white rounded-2xl p-8 lg:p-12 shadow-xl hover:shadow-2xl transition-all duration-300">
-                        <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-r from-gray-600 to-gray-700 mb-6">
+                        <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-r from-blue-600 to-blue-700 mb-6">
                             <Target className="h-8 w-8 text-white" />
                         </div>
                         <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Mission</h3>
@@ -86,7 +86,7 @@ const MissionVision = () => {
 
                     {/* Vision Card */}
                     <div className="bg-white rounded-2xl p-8 lg:p-12 shadow-xl hover:shadow-2xl transition-all duration-300">
-                        <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-r from-gray-600 to-gray-700 mb-6">
+                        <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-r from-blue-600 to-blue-700 mb-6">
                             <Eye className="h-8 w-8 text-white" />
                         </div>
                         <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Vision</h3>
@@ -116,7 +116,7 @@ const MissionVision = () => {
                     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                         {values.map((value, index) => (
                             <div key={index} className="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300">
-                                <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-r from-gray-600 to-gray-700 mb-4">
+                                <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-r from-blue-600 to-blue-700 mb-4">
                                     <value.icon className="h-6 w-6 text-white" />
                                 </div>
                                 <h4 className="text-xl font-semibold text-gray-900 mb-3">{value.title}</h4>
@@ -135,7 +135,7 @@ const MissionVision = () => {
                         <p className="text-gray-600 mb-8">
                             Experience the future of public transportation with ICML&apos;s commitment to excellence and innovation.
                         </p>
-                        <Button size="lg" className="bg-gradient-to-r from-gray-600 to-gray-700 hover:from-gray-700 hover:to-gray-800 text-white">
+                        <Button size="lg" className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white">
                             Explore Our Services
                             <ArrowRight className="ml-2 h-5 w-5" />
                         </Button>

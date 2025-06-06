@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
+import Image from 'next/image';
 import {
     MapPin,
     Phone,
@@ -71,11 +72,11 @@ const Footer = () => {
     ];
 
     const partnerSaccos = [
-        { name: 'Expreso Ltd', color: 'from-gray-600 to-gray-700', initials: 'EX' },
-        { name: 'ROG Sacco', color: 'from-gray-600 to-gray-700', initials: 'ROG' },
-        { name: 'Sowetamu', color: 'from-gray-600 to-gray-700', initials: 'SW' },
-        { name: 'Latema', color: 'from-gray-600 to-gray-700', initials: 'LT' },
-        { name: 'Tripple S', color: 'from-gray-600 to-gray-700', initials: '3S' }
+        { name: 'Expreso Ltd', color: 'from-blue-600 to-blue-700', initials: 'EX' },
+        { name: 'ROG Sacco', color: 'from-blue-600 to-blue-700', initials: 'ROG' },
+        { name: 'Sowetamu', color: 'from-blue-600 to-blue-700', initials: 'SW' },
+        { name: 'Latema', color: 'from-blue-600 to-blue-700', initials: 'LT' },
+        { name: 'Tripple S', color: 'from-blue-600 to-blue-700', initials: '3S' }
     ];
 
     return (
@@ -108,7 +109,7 @@ const Footer = () => {
                                     />
                                     <Button
                                         onClick={handleSubscribe}
-                                        className="bg-gradient-to-r from-gray-600 to-gray-700 hover:from-gray-700 hover:to-gray-800 px-8 py-4 text-white font-semibold rounded-xl transition-all duration-200 transform hover:scale-105"
+                                        className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 px-8 py-4 text-white font-semibold rounded-xl transition-all duration-200 transform hover:scale-105"
                                     >
                                         {isSubscribed ? (
                                             <>
@@ -140,7 +141,7 @@ const Footer = () => {
 
                         <div className="grid sm:grid-cols-2 gap-6">
                             <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/10 transition-all duration-200 group">
-                                <div className="w-12 h-12 bg-gradient-to-r from-gray-600 to-gray-700 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-200">
+                                <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-200">
                                     <Phone className="h-6 w-6 text-white" />
                                 </div>
                                 <div className="font-semibold mb-1">24/7 Support Hotline</div>
@@ -148,7 +149,7 @@ const Footer = () => {
                             </div>
 
                             <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/10 transition-all duration-200 group">
-                                <div className="w-12 h-12 bg-gradient-to-r from-gray-600 to-gray-700 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-200">
+                                <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-200">
                                     <Mail className="h-6 w-6 text-white" />
                                 </div>
                                 <div className="font-semibold mb-1">Email Support</div>
@@ -156,7 +157,7 @@ const Footer = () => {
                             </div>
 
                             <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/10 transition-all duration-200 group">
-                                <div className="w-12 h-12 bg-gradient-to-r from-gray-600 to-gray-700 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-200">
+                                <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-200">
                                     <MapPin className="h-6 w-6 text-white" />
                                 </div>
                                 <div className="font-semibold mb-1">Head Office</div>
@@ -164,7 +165,7 @@ const Footer = () => {
                             </div>
 
                             <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/10 transition-all duration-200 group">
-                                <div className="w-12 h-12 bg-gradient-to-r from-gray-600 to-gray-700 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-200">
+                                <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-200">
                                     <Clock className="h-6 w-6 text-white" />
                                 </div>
                                 <div className="font-semibold mb-1">Operating Hours</div>
@@ -344,7 +345,7 @@ const Footer = () => {
                 <div className="bg-white/5 backdrop-blur-sm rounded-3xl p-8 mb-20">
                     <div className="grid md:grid-cols-4 gap-8">
                         <div className="flex items-center gap-4 group">
-                            <div className="w-12 h-12 bg-gradient-to-r from-gray-600 to-gray-700 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
+                            <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
                                 <Shield className="h-6 w-6 text-white" />
                             </div>
                             <div>
@@ -353,7 +354,7 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className="flex items-center gap-4 group">
-                            <div className="w-12 h-12 bg-gradient-to-r from-gray-600 to-gray-700 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
+                            <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
                                 <Award className="h-6 w-6 text-white" />
                             </div>
                             <div>
@@ -362,7 +363,7 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className="flex items-center gap-4 group">
-                            <div className="w-12 h-12 bg-gradient-to-r from-gray-600 to-gray-700 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
+                            <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
                                 <Star className="h-6 w-6 text-white" />
                             </div>
                             <div>
@@ -371,7 +372,7 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className="flex items-center gap-4 group">
-                            <div className="w-12 h-12 bg-gradient-to-r from-gray-600 to-gray-700 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
+                            <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
                                 <CheckCircle className="h-6 w-6 text-white" />
                             </div>
                             <div>
@@ -389,8 +390,13 @@ const Footer = () => {
                     <div className="flex flex-col md:flex-row justify-between items-center gap-8">
                         {/* Logo & Copyright */}
                         <div className="flex items-center gap-4">
-                            <div className="w-12 h-12 bg-gradient-to-r from-gray-600 to-gray-700 rounded-2xl flex items-center justify-center">
-                                <span className="text-white font-bold text-xl">I</span>
+                            <div className="w-48 h-48 relative">
+                                <Image
+                                    src="/logo.png"
+                                    alt="ICML Logo"
+                                    fill
+                                    className="object-contain rounded-2xl"
+                                />
                             </div>
                             <div>
                                 <div className="text-xl font-bold text-gray-200">ICML</div>

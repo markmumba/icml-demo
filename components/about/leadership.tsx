@@ -91,7 +91,7 @@ const Leadership = () => {
                             <div className="bg-white rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-all duration-300 h-full">
                                 {/* Image */}
                                 <div className="relative w-full h-64 mb-6 rounded-xl overflow-hidden">
-                                    <div className="absolute inset-0 bg-gradient-to-br from-gray-600 to-gray-700">
+                                    <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-blue-700">
                                         <div className="absolute inset-0 flex items-center justify-center text-white text-4xl font-bold">
                                             {leader.name.split(' ').map(n => n[0]).join('')}
                                         </div>
@@ -157,7 +157,7 @@ const Leadership = () => {
                         <p className="text-gray-600 mb-8">
                             Be part of our mission to transform public transportation in Nairobi&apos;s
                         </p>
-                        <Button size="lg" className="bg-gradient-to-r from-gray-600 to-gray-700 hover:from-gray-700 hover:to-gray-800 text-white">
+                        <Button size="lg" className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white">
                             View Career Opportunities
                             <ArrowRight className="ml-2 h-5 w-5" />
                         </Button>

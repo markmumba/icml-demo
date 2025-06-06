@@ -20,7 +20,7 @@ const TrustSection = () => {
                 <div className="grid grid-cols-2 lg:grid-cols-5 gap-8 items-center justify-items-center mb-16">
                     {/* Expreso Ltd */}
                     <div className="flex flex-col items-center group">
-                        <div className="w-20 h-20 bg-gradient-to-br from-gray-600 to-gray-700 rounded-xl flex items-center justify-center mb-3 group-hover:scale-110 transition-transform duration-200">
+                        <div className="w-20 h-20 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center mb-3 group-hover:scale-110 transition-transform duration-200">
                             <span className="text-white font-bold text-lg">EX</span>
                         </div>
                         <span className="text-gray-700 font-medium text-sm">Expreso Ltd</span>
@@ -28,7 +28,7 @@ const TrustSection = () => {
 
                     {/* ROG */}
                     <div className="flex flex-col items-center group">
-                        <div className="w-20 h-20 bg-gradient-to-br from-gray-600 to-gray-700 rounded-xl flex items-center justify-center mb-3 group-hover:scale-110 transition-transform duration-200">
+                        <div className="w-20 h-20 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center mb-3 group-hover:scale-110 transition-transform duration-200">
                             <span className="text-white font-bold text-lg">ROG</span>
                         </div>
                         <span className="text-gray-700 font-medium text-sm">ROG Sacco</span>
@@ -36,7 +36,7 @@ const TrustSection = () => {
 
                     {/* Sowetamu */}
                     <div className="flex flex-col items-center group">
-                        <div className="w-20 h-20 bg-gradient-to-br from-gray-600 to-gray-700 rounded-xl flex items-center justify-center mb-3 group-hover:scale-110 transition-transform duration-200">
+                        <div className="w-20 h-20 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center mb-3 group-hover:scale-110 transition-transform duration-200">
                             <span className="text-white font-bold text-lg">SW</span>
                         </div>
                         <span className="text-gray-700 font-medium text-sm">Sowetamu</span>
@@ -44,7 +44,7 @@ const TrustSection = () => {
 
                     {/* Latema */}
                     <div className="flex flex-col items-center group">
-                        <div className="w-20 h-20 bg-gradient-to-br from-gray-600 to-gray-700 rounded-xl flex items-center justify-center mb-3 group-hover:scale-110 transition-transform duration-200">
+                        <div className="w-20 h-20 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center mb-3 group-hover:scale-110 transition-transform duration-200">
                             <span className="text-white font-bold text-lg">LT</span>
                         </div>
                         <span className="text-gray-700 font-medium text-sm">Latema</span>
@@ -52,7 +52,7 @@ const TrustSection = () => {
 
                     {/* Tripple S Services */}
                     <div className="flex flex-col items-center group col-span-2 lg:col-span-1">
-                        <div className="w-20 h-20 bg-gradient-to-br from-gray-600 to-gray-700 rounded-xl flex items-center justify-center mb-3 group-hover:scale-110 transition-transform duration-200">
+                        <div className="w-20 h-20 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center mb-3 group-hover:scale-110 transition-transform duration-200">
                             <span className="text-white font-bold text-lg">3S</span>
                         </div>
                         <span className="text-gray-700 font-medium text-sm">Tripple S Services</span>

@@ -80,7 +80,7 @@ const Community = () => {
                     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                         {impactStats.map((stat, index) => (
                             <div key={index} className="bg-white rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-all duration-300 text-center">
-                                <div className="w-12 h-12 rounded-xl bg-gradient-to-r from-gray-600 to-gray-700 flex items-center justify-center text-white mb-4 mx-auto">
+                                <div className="w-12 h-12 rounded-xl bg-gradient-to-r from-blue-600 to-blue-700 flex items-center justify-center text-white mb-4 mx-auto">
                                     {stat.icon}
                                 </div>
                                 <div className="text-3xl font-bold text-gray-900 mb-2">{stat.value}</div>
@@ -99,7 +99,7 @@ const Community = () => {
                             <div className="space-y-6">
                                 {initiatives.map((initiative, index) => (
                                     <div key={index} className="flex items-start space-x-4">
-                                        <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-gradient-to-r from-gray-600 to-gray-700 flex items-center justify-center text-white">
+                                        <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-gradient-to-r from-blue-600 to-blue-700 flex items-center justify-center text-white">
                                             {initiative.icon}
                                         </div>
                                         <div>
@@ -162,7 +162,7 @@ const Community = () => {
                         <p className="text-gray-600 mb-8">
                             Be part of our mission to create positive change in our communities
                         </p>
-                        <Button size="lg" className="bg-gradient-to-r from-gray-600 to-gray-700 hover:from-gray-700 hover:to-gray-800 text-white">
+                        <Button size="lg" className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white">
                             Get Involved
                             <ArrowRight className="ml-2 h-5 w-5" />
                         </Button>

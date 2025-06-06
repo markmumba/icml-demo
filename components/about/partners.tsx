@@ -100,7 +100,7 @@ const Partners = () => {
                             <div className="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 h-full">
                                 {/* Logo/Name */}
                                 <div className="relative w-full h-24 mb-6 rounded-xl overflow-hidden">
-                                    <div className="absolute inset-0 bg-gradient-to-br from-gray-600 to-gray-700">
+                                    <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-blue-700">
                                         <div className="absolute inset-0 flex items-center justify-center text-white text-2xl font-bold">
                                             {partner.name}
                                         </div>
@@ -168,21 +168,21 @@ const Partners = () => {
                     <h3 className="text-2xl font-bold text-gray-900 text-center mb-12">Why Partner With Us</h3>
                     <div className="grid md:grid-cols-3 gap-8">
                         <div className="bg-white rounded-2xl p-6 text-center">
-                            <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-r from-gray-600 to-gray-700 mb-4">
+                            <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-r from-blue-600 to-blue-700 mb-4">
                                 <Shield className="h-6 w-6 text-white" />
                             </div>
                             <h4 className="text-lg font-semibold text-gray-900 mb-2">Safety Standards</h4>
                             <p className="text-gray-600 text-sm">Comprehensive safety protocols and regular training</p>
                         </div>
                         <div className="bg-white rounded-2xl p-6 text-center">
-                            <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-r from-gray-600 to-gray-700 mb-4">
+                            <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-r from-blue-600 to-blue-700 mb-4">
                                 <Clock className="h-6 w-6 text-white" />
                             </div>
                             <h4 className="text-lg font-semibold text-gray-900 mb-2">24/7 Support</h4>
                             <p className="text-gray-600 text-sm">Round-the-clock technical and operational support</p>
                         </div>
                         <div className="bg-white rounded-2xl p-6 text-center">
-                            <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-r from-gray-600 to-gray-700 mb-4">
+                            <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-r from-blue-600 to-blue-700 mb-4">
                                 <Bus className="h-6 w-6 text-white" />
                             </div>
                             <h4 className="text-lg font-semibold text-gray-900 mb-2">Modern Fleet</h4>
@@ -200,7 +200,7 @@ const Partners = () => {
                         <p className="text-gray-600 mb-8">
                             Join our network of trusted transport providers and grow your business with ICML
                         </p>
-                        <Button size="lg" className="bg-gradient-to-r from-gray-600 to-gray-700 hover:from-gray-700 hover:to-gray-800 text-white">
+                        <Button size="lg" className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white">
                             Partner With Us
                             <ArrowRight className="ml-2 h-5 w-5" />
                         </Button>

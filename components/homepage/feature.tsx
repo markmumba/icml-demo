@@ -49,7 +49,7 @@ const FeaturesSection = () => {
                                 className="object-cover group-hover:scale-105 transition-transform duration-300"
                             />
                         </div>
-                        <div className="w-16 h-16 bg-gradient-to-r from-gray-600 to-gray-700 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-200">
+                        <div className="w-16 h-16 bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-200">
                             <Navigation className="h-8 w-8 text-white" />
                         </div>
 
@@ -90,7 +90,7 @@ const FeaturesSection = () => {
                                 className="object-cover group-hover:scale-105 transition-transform duration-300"
                             />
                         </div>
-                        <div className="w-16 h-16 bg-gradient-to-r from-gray-600 to-gray-700 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-200">
+                        <div className="w-16 h-16 bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-200">
                             <CreditCard className="h-8 w-8 text-white" />
                         </div>
 
@@ -128,7 +128,7 @@ const FeaturesSection = () => {
                                 className="object-cover group-hover:scale-105 transition-transform duration-300"
                             />
                         </div>
-                        <div className="w-16 h-16 bg-gradient-to-r from-gray-600 to-gray-700 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-200">
+                        <div className="w-16 h-16 bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-200">
                             <Headphones className="h-8 w-8 text-white" />
                         </div>
 
@@ -171,7 +171,7 @@ const FeaturesSection = () => {
                                 className="object-cover"
                             />
                         </div>
-                        <div className="w-12 h-12 bg-gradient-to-r from-gray-600 to-gray-700 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-blue-700 rounded-full flex items-center justify-center mx-auto mb-4">
                             <Smartphone className="h-6 w-6 text-white" />
                         </div>
                         <h4 className="font-semibold text-gray-900 mb-2">Mobile App</h4>
@@ -187,7 +187,7 @@ const FeaturesSection = () => {
                                 className="object-cover"
                             />
                         </div>
-                        <div className="w-12 h-12 bg-gradient-to-r from-gray-600 to-gray-700 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-blue-700 rounded-full flex items-center justify-center mx-auto mb-4">
                             <Wifi className="h-6 w-6 text-white" />
                         </div>
                         <h4 className="font-semibold text-gray-900 mb-2">Free WiFi</h4>
@@ -203,7 +203,7 @@ const FeaturesSection = () => {
                                 className="object-cover"
                             />
                         </div>
-                        <div className="w-12 h-12 bg-gradient-to-r from-gray-600 to-gray-700 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-blue-700 rounded-full flex items-center justify-center mx-auto mb-4">
                             <Shield className="h-6 w-6 text-white" />
                         </div>
                         <h4 className="font-semibold text-gray-900 mb-2">Safety First</h4>
@@ -219,7 +219,7 @@ const FeaturesSection = () => {
                                 className="object-cover"
                             />
                         </div>
-                        <div className="w-12 h-12 bg-gradient-to-r from-gray-600 to-gray-700 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-blue-700 rounded-full flex items-center justify-center mx-auto mb-4">
                             <Star className="h-6 w-6 text-white" />
                         </div>
                         <h4 className="font-semibold text-gray-900 mb-2">Premium Comfort</h4>
